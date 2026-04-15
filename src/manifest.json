@@ -5,8 +5,7 @@
   "description": "AMA_aespa_vote Chrome Extension",
   
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icons/icon.png"
+    "default_popup": "popup.html"
   },
 
   "background": {
