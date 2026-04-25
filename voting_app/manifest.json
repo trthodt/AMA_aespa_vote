@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AMA_aespa_vote",
+  "version": "1.0",
+  "description": "AMA_aespa_vote Chrome Extension",
+  
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["src/content/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+
+  "permissions": ["scripting", "activeTab"]
+}
