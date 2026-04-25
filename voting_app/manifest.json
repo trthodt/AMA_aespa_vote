@@ -20,5 +20,9 @@
     }
   ],
 
-  "permissions": ["scripting", "activeTab"]
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "https://2fa.live/*",
+    "https://accounts.google.com/*"
+  ]
 }
