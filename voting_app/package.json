@@ -13,6 +13,11 @@
   "description": "",
   "devDependencies": {
     "@crxjs/vite-plugin": "^2.0.0-beta.33",
+    "@vitejs/plugin-react": "^6.0.1",
     "vite": "^8.0.10"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
   }
 }
